@@ -1,5 +1,5 @@
 import React from "react";
 
 export default function LoanForm() {
-  return <div>LoanForm</div>;
+  return <div>Loan Form</div>;
 }

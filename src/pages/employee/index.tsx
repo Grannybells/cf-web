@@ -9,6 +9,9 @@ import ProfileCard from "@/components/employee/profileCard";
 import ShortCut from "@/components/employee/shortCut";
 import Loader from "@/components/loader";
 import DropnavBar from "@/components/employee/dropnavBar";
+import Annoucement from "@/components/employee/annoucement";
+import HolidaySchedule from "@/components/employee/holidaySchedule";
+import WeeklyCalendar from "@/components/employee/weeklyCalendar";
 
 export default function Employee({
   session,
@@ -53,7 +56,7 @@ function Content({ session }: { session: SessionData }) {
   }, [isLoading, session.isLoggedIn, router]);
 
   return (
-    <div className="flex flex-row w-screen h-screen">
+    <div className="sticky top-0 flex flex-row w-screen h-screen overflow-scroll">
       <NavBar />
       {isLoading ? (
         <Loader />
@@ -62,7 +65,16 @@ function Content({ session }: { session: SessionData }) {
           <DropnavBar email={session.email || ""} />
           <ProfileCard email={session.email || ""} />
           <ShortCut />
-          Hello, {session.email}! You are currently at dashboard page!
+          <div className="bg-red-500 md:bg-green-500 lg:bg-blue-500 xl:bg-yellow-500">
+            State!
+          </div>
+          <div className="flex flex-col xl:flex-row w-full h-auto gap-5 border border-green-500">
+            <Annoucement />
+            <div className="flex flex-col xl:w-1/2 w-full h-auto gap-5 border border-yellow-500">
+              <WeeklyCalendar />
+              <HolidaySchedule />
+            </div>
+          </div>
         </div>
       )}
     </div>

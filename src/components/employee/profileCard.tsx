@@ -1,12 +1,13 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
 export default function ProfileCard(props: { email: string }) {
   return (
-    <div className="hidden lg:flex flex-row items-center justify-between w-full h-auto border border-red-500">
+    <div className="hidden lg:flex flex-row items-center justify-between w-full h-auto border border-red-500 font-poppins">
       <div className="flex flex-row items-center">
         <div className="flex w-28 h-28 items-center justify-center rounded-lg border border-red-500">
-          Image
+          <Image src="/profileSample.jpg" alt="Logo" width={112} height={112} />
         </div>
         <div className="flex flex-col w-auto h-auto px-5">
           <span>Gran Zulueta</span>

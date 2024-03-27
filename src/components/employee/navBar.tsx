@@ -3,16 +3,7 @@ import useSession from "@/contexts/use-session";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import {
-  GoSignOut,
-  GoHome,
-  GoHomeFill,
-  GoNote,
-  GoBell,
-  GoPerson,
-  GoPersonFill,
-  GoBellFill,
-} from "react-icons/go";
+import { GoSignOut } from "react-icons/go";
 import { navItems } from "@/contexts/constant";
 
 export default function NavBar() {
@@ -31,7 +22,7 @@ export default function NavBar() {
   };
 
   return (
-    <div className="hidden w-full h-full lg:flex flex-col lg:w-[18rem] items-center justify-between py-10 bg-white shadow-lg">
+    <div className="hidden w-full h-full lg:flex flex-col lg:w-[18rem] items-center justify-between py-10 bg-white shadow-lg font-poppins">
       <div className="flex flex-col gap-5">
         <Link href={"/employee"}>
           <Image src="/cflogonew.png" alt="Logo" width={200} height={40} />
@@ -40,18 +31,23 @@ export default function NavBar() {
           {navItems.map((navItems) => (
             <Link
               key={navItems.id}
+              href={navItems.link}
               className={`flex flex-row items-center gap-2 text-base hover:border-l-[0.5rem] hover:border-[#5BBF21] hover:pl-2 ${
                 isActive(navItems.link) &&
                 "border-l-[0.5rem] border-[#5BBF21] pl-2 text-[#5BBF21] font-semibold"
               }`}
-              href={navItems.link}
             >
               {isActive(navItems.link) ? (
-                <>{navItems.activeIcon}</>
+                <div className="gap-2 flex flex-row items-center pl-2 text-[#5BBF21]">
+                  {navItems.activeIcon}
+                  {navItems.name}
+                </div>
               ) : (
-                <>{navItems.icon}</>
+                <div className="gap-2 flex flex-row items-center text-blue-500">
+                  {navItems.icon}
+                  {navItems.name}
+                </div>
               )}
-              {navItems.name}
             </Link>
           ))}
         </div>

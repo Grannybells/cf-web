@@ -51,7 +51,7 @@ function Content({ session }: { session: SessionData }) {
   }, [isLoading, session.isLoggedIn, router]);
 
   return (
-    <div className="flex flex-row w-screen h-screen">
+    <div className="sticky top-0 flex flex-row w-screen h-screen overflow-scroll">
       <NavBar />
       {isLoading ? (
         <>Loading...</>

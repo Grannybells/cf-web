@@ -1,5 +1,5 @@
 import React from "react";
-import { FaBus, FaWpforms, FaWrench } from "react-icons/fa";
+import { FaBus, FaRegBuilding, FaWpforms, FaWrench } from "react-icons/fa";
 import {
   GoHome,
   GoHomeFill,
@@ -13,8 +13,8 @@ import { GrMoney } from "react-icons/gr";
 import { LuCalendarClock, LuCalendarHeart } from "react-icons/lu";
 import { RxLapTimer } from "react-icons/rx";
 import { TbRoute } from "react-icons/tb";
-import { PiFileMinusDuotone } from "react-icons/pi";
 import { IoFileTrayFull, IoFileTrayFullOutline } from "react-icons/io5";
+import { MdOutlineLocalGasStation } from "react-icons/md";
 
 const navItems = [
   {
@@ -50,28 +50,28 @@ const navItems = [
 const employeeForms = [
   {
     id: 1,
-    link: "#",
+    link: "/employee/forms/loanform",
     icon: <GrMoney className="w-10 h-10 mb-2" />,
     name: "Company Loan Form",
     description: "Note: Filing is every 1st to 3rd day of the month only.",
   },
   {
     id: 2,
-    link: "#",
-    icon: <LuCalendarClock className="w-10 h-10 mb-2" />,
+    link: "/employee/forms/leaveform",
+    icon: <FaRegBuilding className="w-10 h-10 mb-2" />,
     name: "Request for Leave of Absence",
     description: "Note: For HO Employee Only",
   },
   {
     id: 3,
-    link: "#",
-    icon: <LuCalendarClock className="w-10 h-10 mb-2" />,
+    link: "/employee/forms/leaveform",
+    icon: <MdOutlineLocalGasStation className="w-10 h-10 mb-2" />,
     name: "Request for Leave of Absence",
     description: "Note: For Stations Employee Only",
   },
   {
     id: 4,
-    link: "#",
+    link: "/employee/forms/route-itineraryform",
     icon: <TbRoute className="w-10 h-10 mb-2" />,
     name: "Route / Itinerary Form",
     description: "Note: To add description",
@@ -85,7 +85,7 @@ const employeeForms = [
   },
   {
     id: 6,
-    link: "#",
+    link: "/employee/forms/noin-noout",
     icon: <RxLapTimer className="w-10 h-10 mb-2" />,
     name: "No In, No Out",
     description: "Note: To add description",
@@ -111,37 +111,37 @@ const shortCutLinks = [
   {
     id: 1,
     link: "#",
-    icon: <GrMoney className="w-8 h-8" />,
+    icon: <GrMoney className="w-8 h-8 mb-2" />,
     name: "Company Loan form",
   },
   {
     id: 2,
     link: "#",
-    icon: <PiFileMinusDuotone className="w-8 h-8" />,
-    name: "Leave of absence - HO",
+    icon: <FaRegBuilding className="w-8 h-8 mb-2" />,
+    name: "Request for leave of absence",
   },
   {
     id: 3,
     link: "#",
-    icon: <LuCalendarHeart className="w-8 h-8" />,
-    name: "Leave of absence - Station",
+    icon: <MdOutlineLocalGasStation className="w-8 h-8 mb-2" />,
+    name: "Request for leave of absence",
   },
   {
     id: 4,
     link: "#",
-    icon: <LuCalendarClock className="w-8 h-8" />,
+    icon: <RxLapTimer className="w-8 h-8 mb-2" />,
     name: "No In / No Out",
   },
   {
     id: 5,
     link: "#",
-    icon: <LuCalendarClock className="w-8 h-8" />,
+    icon: <FaWpforms className="w-8 h-8 mb-2" />,
     name: "Clearance Form",
   },
   {
     id: 6,
     link: "#",
-    icon: <TbRoute className="w-8 h-8" />,
+    icon: <FaWrench className="w-8 h-8 mb-2" />,
     name: "Basic PMS Form",
   },
   // Add more products as needed
