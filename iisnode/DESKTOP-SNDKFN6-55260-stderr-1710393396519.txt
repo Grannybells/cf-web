@@ -1,0 +1,12 @@
+ ⨯ Failed to load next.config.mjs, see more info here https://nextjs.org/docs/messages/next-config-error
+(node:55260) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Application has thrown an uncaught exception and is terminated:
+ReferenceError: module is not defined in ES module scope
+    at file:///C:/inetpub/wwwroot/test-deployment/next.config.mjs:6:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:431:15)
+    at async loadConfig (C:\inetpub\wwwroot\test-deployment\node_modules\next\dist\server\config.js:703:36)
+    at async initialize (C:\inetpub\wwwroot\test-deployment\node_modules\next\dist\server\lib\router-server.js:55:20)
+    at async NextCustomServer.prepare (C:\inetpub\wwwroot\test-deployment\node_modules\next\dist\server\next.js:240:28)

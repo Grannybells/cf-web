@@ -1,0 +1,2 @@
+> Ready on http://localhost:\\.\pipe\1c79bc1b-11e5-4b55-b843-5f30db482a65
+{ isLoggedIn: false }

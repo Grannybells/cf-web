@@ -1,0 +1,38 @@
+> Ready on http://localhost:\\.\pipe\5ef3d4d4-8617-476a-aa3b-b9de7e6d302d
+{ isLoggedIn: false }
+{
+  isLoggedIn: true,
+  status: '1',
+  message: 'SUCCESS',
+  verified: false,
+  username: 'Gran Zulueta',
+  email: 'zulueta.gran.p@gmail.com',
+  userId: '1920212',
+  startDate: '03042024',
+  position: 'Programmer',
+  department: 'MIS'
+}
+{
+  isLoggedIn: true,
+  status: '1',
+  message: 'SUCCESS',
+  verified: false,
+  username: 'Gran Zulueta',
+  email: 'zulueta.gran.p@gmail.com',
+  userId: '1920212',
+  startDate: '03042024',
+  position: 'Programmer',
+  department: 'MIS'
+}
+{
+  isLoggedIn: true,
+  status: '1',
+  message: 'SUCCESS',
+  verified: false,
+  username: 'Gran Zulueta',
+  email: 'zulueta.gran.p@gmail.com',
+  userId: '1920212',
+  startDate: '03042024',
+  position: 'Programmer',
+  department: 'MIS'
+}

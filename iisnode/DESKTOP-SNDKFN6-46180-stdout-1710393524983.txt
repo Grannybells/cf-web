@@ -1,0 +1,88 @@
+> Ready on http://localhost:\\.\pipe\30d5f7d6-be0e-4074-af4f-e050ccc3d060
+{ isLoggedIn: false }
+{
+  isLoggedIn: false,
+  status: '2',
+  message: 'YOUR USING DEFAULT PASSWORD'
+}
+"Email sent successfully"
+{ isLoggedIn: false }
+{
+  isLoggedIn: false,
+  status: '2',
+  message: 'YOUR USING DEFAULT PASSWORD'
+}
+{
+  isLoggedIn: true,
+  status: '1',
+  message: 'SUCCESS',
+  verified: false,
+  username: 'Gran Zulueta',
+  email: 'zulueta.gran.p@gmail.com',
+  userId: '1920212',
+  startDate: '03042024',
+  position: 'Programmer',
+  department: 'MIS'
+}
+{
+  isLoggedIn: true,
+  status: '1',
+  message: 'SUCCESS',
+  verified: false,
+  username: 'Gran Zulueta',
+  email: 'zulueta.gran.p@gmail.com',
+  userId: '1920212',
+  startDate: '03042024',
+  position: 'Programmer',
+  department: 'MIS'
+}
+{
+  isLoggedIn: true,
+  status: '1',
+  message: 'SUCCESS',
+  verified: false,
+  username: 'Gran Zulueta',
+  email: 'zulueta.gran.p@gmail.com',
+  userId: '1920212',
+  startDate: '03042024',
+  position: 'Programmer',
+  department: 'MIS'
+}
+{
+  isLoggedIn: true,
+  status: '1',
+  message: 'SUCCESS',
+  verified: false,
+  username: 'Gran Zulueta',
+  email: 'zulueta.gran.p@gmail.com',
+  userId: '1920212',
+  startDate: '03042024',
+  position: 'Programmer',
+  department: 'MIS'
+}
+{
+  isLoggedIn: true,
+  status: '1',
+  message: 'SUCCESS',
+  verified: false,
+  username: 'Gran Zulueta',
+  email: 'zulueta.gran.p@gmail.com',
+  userId: '1920212',
+  startDate: '03042024',
+  position: 'Programmer',
+  department: 'MIS'
+}
+{
+  isLoggedIn: true,
+  status: '1',
+  message: 'SUCCESS',
+  verified: false,
+  username: 'Gran Zulueta',
+  email: 'zulueta.gran.p@gmail.com',
+  userId: '1920212',
+  startDate: '03042024',
+  position: 'Programmer',
+  department: 'MIS'
+}
+{ isLoggedIn: false }
+{ isLoggedIn: false }
