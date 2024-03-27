@@ -110,25 +110,25 @@ const employeeForms = [
 const shortCutLinks = [
   {
     id: 1,
-    link: "#",
+    link: "/employee/forms/loanform",
     icon: <GrMoney className="w-8 h-8 mb-2" />,
     name: "Company Loan form",
   },
   {
     id: 2,
-    link: "#",
+    link: "/employee/forms/leaveform",
     icon: <FaRegBuilding className="w-8 h-8 mb-2" />,
     name: "Request for leave of absence",
   },
   {
     id: 3,
-    link: "#",
+    link: "/employee/forms/leaveform",
     icon: <MdOutlineLocalGasStation className="w-8 h-8 mb-2" />,
     name: "Request for leave of absence",
   },
   {
     id: 4,
-    link: "#",
+    link: "/employee/forms/noin-noout",
     icon: <RxLapTimer className="w-8 h-8 mb-2" />,
     name: "No In / No Out",
   },
